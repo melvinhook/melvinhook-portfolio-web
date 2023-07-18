@@ -1,0 +1,504 @@
+body{
+    padding: 0%; 
+    font-family: 'Roboto', sans-serif; 
+    background-color: #000000;
+}  
+nav{ 
+    display: flex;
+    justify-content: space-around;
+} 
+li {
+    display: inline; 
+    padding: 15px;  
+}  
+a{
+    text-decoration: none; 
+    color: white; 
+    transition: .3s;
+}    
+
+a:hover {
+    color: crimson ; 
+    transition: all .3s ease-in-out; 
+    
+}   
+a.active{ 
+  background: crimson; 
+  color: white !important; 
+  padding: 15px; 
+}
+.logo{
+    margin-top: 0px;   
+} 
+.Depression{
+    color: white;
+} 
+.Code{
+    color:red; 
+    margin-left: 5px;
+}    
+.more{
+  display: none;
+}
+.more-more-button{ 
+  margin-top: 100%;
+  width: 15px; 
+  height: 15px; 
+}     
+.hero {
+    height: 800px; 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    position: relative; /* Add position property */
+  }
+  .hero-inside {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .hero-inside img {
+    width: 800px;
+    height: 600px;
+    position: absolute;
+    top: 223px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .intro {
+    color: white;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  } 
+  .intro h1 {
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+  .intro p {
+    font-size: 18px;
+  }  
+  .wrapper-button{
+    width: 400px; 
+    height: auto;  
+    display: flex; 
+    justify-content: space-evenly;  
+  } 
+  .wrapper-button div{
+      width: 150px; 
+      height: 50px; 
+      border-radius: 50px;   
+      border-color: white;  
+      border-style: solid;  
+      border-width: 1px;
+      background-color: rgba(0,0,0,0.5);     
+      transition: 0.2s ease-out; 
+      cursor: pointer;
+  }  
+  .wrapper-button div:hover {
+    background-color: white; 
+    transition: 0.2s ease-in;  
+    color: #000000;
+  }
+  .wrapper-button div p{ 
+      padding-top: 2%;
+      text-align: center; 
+      font-size: 15px; 
+  }
+  .Code2 {
+    color: red;
+  }    
+  .second-hero{
+    display: flex;  
+    height: 100%;
+    justify-content: space-between;
+  }
+  .first-card{
+    height: 500px; 
+    width: 40%; 
+    background-color: #151515;
+  }  
+  .first-card h1{ 
+    margin-top: 90px; 
+    margin-left: 15px;
+    color: #212121;  
+    font-size: 50px;
+  } 
+  .first-card p {
+    color: white; 
+    margin-left: 15px;
+  } 
+  .roller1{ 
+    margin-left: 15px;
+    width: 300px; 
+    height: 5px; 
+    background-color: #21211F; 
+    border-radius: 5px;
+  }  
+  .roller1 div{
+    opacity: 0;
+    width: 0px; 
+    height: 5px; 
+    background-color: red; 
+    border-radius: 5px;
+  }  
+  .roller1 div.active{
+      opacity: 1; 
+      width: 200px; 
+      transition: 0.5s;
+  }
+  .roller2{ 
+    margin-left: 15px;
+    width: 300px; 
+    height: 5px; 
+    background-color: #21211F; 
+    border-radius: 5px;
+  }  
+ 
+  .roller2 div{ 
+    opacity: 0;
+    width: 0px; 
+    height: 5px; 
+    background-color: red; 
+    border-radius: 5px;
+  } 
+  .roller2 div.active{
+    opacity: 1; 
+    width: 100px; 
+    transition: 0.5s;
+  }
+  .roller3{ 
+    margin-left: 15px;
+    width: 300px; 
+    height: 5px; 
+    background-color: #21211F; 
+    border-radius: 5px;
+  } 
+  .roller3 div{ 
+    opacity: 0;
+    width: 0px; 
+    height: 5px; 
+    background-color: red; 
+    border-radius: 5px;
+  } 
+  .roller3 div.active{
+    opacity: 1; 
+    width: 290px; 
+    transition: 0.5s;
+  }
+  .second-card{
+    height: 500px; 
+    width: 30%; 
+    background-color: #21211F;
+  }  
+  .second-card img{ 
+    padding-top: 10%; 
+    padding-left: 20%;
+    height: 400px; 
+    width: 60%;
+  }
+  .third-card{
+    height: 500px; 
+    width: 40%; 
+    background-color: #151515;  
+  }   
+  
+  .wrapper { 
+    margin-top: 10%; 
+    margin-left: 10%;
+    height: 330px; 
+    width: 83%; 
+    background-color: #151515;
+  }  
+  .wrapper p {
+    color: white;
+  }
+.div1{ 
+  width: 100%; 
+  height: 40px; 
+  background-color: #151515; 
+}   
+.div1 h1{ 
+ font-size: 30px;  
+ background-color: white;
+}
+.div2{ 
+  width: 100%; 
+  height: 170px; 
+  background-color: #151515;
+}  
+.div2 p{
+  font-size: 11.5px;
+}   
+.div2 p span{
+  color: red; 
+  font-style: bold;
+}
+.div3{  
+  
+  display: flex; 
+  justify-content: space-between;
+  width: 100%; 
+  height: 40px; 
+  background-color: #151515;
+}    
+.div3 img {  
+  padding-left: 0%;
+  margin-top: 3%;
+  width: 23px; 
+  height: 23px; 
+  transition: 0.2s; 
+  cursor: pointer;
+}   
+.instagram:hover{
+  width:27px; 
+  height: 27px; 
+  transition: 0.2s;
+} 
+.twitter:hover{
+  width:27px; 
+  height:27px; 
+  transition: 0.2s;
+} 
+.facebook:hover{
+  width:27px; 
+  height:27px; 
+  transition: 0.2s;
+} 
+.linkedin:hover{
+  width:27px; 
+  height:27px; 
+  transition: 0.2s;
+}
+.div3 p{
+  margin-top: 3%;
+}
+.line { 
+  margin-top: 5.5%;
+  width: 70px; 
+  height: 3px; 
+  background-color: red; 
+}  
+.per-satu{
+  width: 100%; 
+  height: 150px; 
+  background-color: #0E0E0E; 
+  display: flex; 
+  justify-content: center;
+} 
+.judul{  
+  align-self: flex-end;  
+  display: flex; 
+  justify-content: center;
+  width: 30%; 
+  height: 30%; 
+  background-color: #0E0E0E;
+}   
+.judul h1{
+  align-self: center; 
+  color: #212121; 
+  font-size: 50px;
+} 
+.per-dua{
+  width: 100%; 
+  height: 300px; 
+  background-color: #0E0E0E; 
+  display: flex; 
+  justify-content:  space-between;
+}   
+.per-dua div{ 
+  margin-top: 10px;
+  width: 190px; 
+  height: 290px; 
+  background-color: #0A0A0C; 
+  transition: 0.3s; 
+  cursor: pointer;
+}   
+.per-dua > div:hover{
+  width: 210px; 
+  height: 310px; 
+  transition: 0.3s;
+}
+.per-dua div div  {  
+  margin-top: 10%;
+  width: 190px; 
+  height: 250px;  
+  background-color: #0A0A0C;  
+  text-align: center; 
+  color: white;
+}   
+
+.per-dua div div  p{
+  font-size: 9px;  
+  padding-left: 10px; 
+  padding-right: 10px;
+}    
+.per-dua div > div > div { 
+  margin-left: 25%;
+  background-color: #171216; 
+  width: 90px;
+  height: 90px; 
+  border-radius: 50%;
+} 
+.per-dua div > div > div img{
+  width: 50px; 
+  height: 50px; 
+  margin-top: 20%;
+}
+.per-tiga{
+  width: 100%; 
+  height: 100px; 
+  background-color: #0E0E0E; 
+}
+.empty-1{
+  background-color: #0E0E0E !important;
+} 
+.empty-2 {
+  background-color: #0E0E0E !important;
+} 
+.div-satu{
+  width: 100%; 
+  height: 250px; 
+  background-color: #151515; 
+  display: flex; 
+  justify-content: center;
+} 
+.div-satu div{ 
+  align-self: flex-end;
+  width: 400px; 
+  height: 70px; 
+  background-color: #151515;  
+  text-align: center; 
+  font-size: 30px; 
+  color: #232323;
+}   
+.div-satu h1{
+  margin-top: 0%;
+} 
+.div-dua {
+  width: 100%; 
+  height: 150px; 
+  background-color: #151515; 
+  display: flex; 
+  justify-content: center;
+}  
+.navbar-tengah{ 
+  align-self: flex-end;  
+  display: flex;
+  justify-content: center;
+  width: 600px; 
+  height: 40px; 
+  background-color: #151515;
+}  
+.pengantar-tiga {
+  width: 100%; 
+  height: 80px  ; 
+  background-color: #151515;
+} 
+.div-tiga{
+  width: 100%; 
+  height: 600px; 
+  background-color: #151515; 
+  display: flex; 
+  justify-content: center;
+} 
+.card-satu{
+  width: 10%;
+  height: 600px; 
+  background-color: #151515; 
+} 
+.card-dua{
+  width: 80%; 
+  height: 600px; 
+  background-color: #151515;
+}  
+
+.card-tiga{
+  width: 10%; 
+  height: 600px; 
+  background-color: #151515;
+} 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 10px;
+}
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+} 
+.div-empat{
+  width: 100%; 
+  height: 300px; 
+  background-color: #151515;
+}  
+.dropdown_menu{
+  display: none; 
+  flex-direction: column;  
+  margin-left: 20%; 
+  width: 60%; 
+  position: absolute; 
+  z-index: 1; 
+  background: rgba(84, 84, 84, 0.1); 
+  backdrop-filter: blur(15px);
+}    
+.show {
+  display: flex;
+}
+
+.dropdown_menu > li{ 
+  text-align: center;
+} 
+@media (max-width: 992px) {    
+  .ngeluh{
+    display: none;
+  }   
+  .curhat{
+    display: none;
+  }
+  .hero-inside img {
+    top: 320px;
+  }
+  .nav{
+    display: flex; 
+    justify-content: space-between;
+  }
+  nav > ul {
+    display: none;
+  }      
+ 
+  .more{
+    display: block;
+  }
+  .second-hero {
+    display: block; 
+  } 
+  .first-card {
+    width: 100%;
+  } 
+  .second-card {
+    width: 100%; 
+   
+  } 
+  .third-card {
+    width: 100%;
+  }
+} 
+
+
+
+
+
+
+
+
+
+
+
